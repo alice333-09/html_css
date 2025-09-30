@@ -1,0 +1,48 @@
+/* para configurações gerais da página */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* tira o sublinhado do link */
+    text-decoration:none;
+}
+/* para cabeçario */
+header {
+    /* cor do fundo */
+    background-color: rgb(161, 161, 253);
+    display: flex;
+}
+
+body{
+ background-color: antiquewhite;
+
+}
+
+#h1nave {
+    margin: 30px 75px;
+
+}
+nav {
+    display: flex;
+    justify-content: flex-end;
+    /* alinhar ao centro */
+    align-items: center;
+    /* largura quando 100 ocupa o maximo da tela, para tirar o tamanho q ja vem definido */
+    width: 100%;
+    /* tirar os pontinhos da lista */
+    /* list-style:none;  */
+}
+
+.item{
+    padding: 2px;
+    margin: 10px;
+    display: flex;
+    color: brown;
+    
+}
+
+/* para aparecer cor */
+.item:hover{
+    color: aliceblue;
+}
+
