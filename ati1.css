@@ -5,11 +5,15 @@
   
 }   
 #nav{
-    background-color: rgb(63, 63, 134);
+    display: flex;
+    background-color: rgba(37, 37, 117, 0.616);
 }
 .logo{
+    display: flex;
     color: rgb(255, 255, 255);
-    margin: 50px;
+    /* margin: 50px; */
+    margin-left: 280px;
+    margin-top: 50px;
     padding: 50px;
     /* corta a altura do babado */
     height: 50px;
@@ -18,4 +22,9 @@
 body{
     background-color: rgb(59, 59, 128);
 
+}
+.pai {
+    display: flex;
+    align-items: end;
+    justify-content: end;
 }
