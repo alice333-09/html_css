@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}   
+#nav{
+    background-color: rgb(63, 63, 134);
+}
+.logo{
+    color: rgb(255, 255, 255);
+    margin: 50px;
+    padding: 50px;
+    /* corta a altura do babado */
+    height: 50px;
+
+}
+body{
+    background-color: rgb(59, 59, 128);
+
+}
