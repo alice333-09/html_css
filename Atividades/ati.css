@@ -1,0 +1,76 @@
+body {
+    background-color: rgb(33, 33, 87);
+}
+
+h1 {
+    color: white;
+}
+
+.navlogo{
+  padding-left: 45px;
+}
+
+.lista{
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  margin-left: 1.5rem;
+  list-style-type: none;
+  flex-wrap: wrap;
+}
+
+ul li a{
+  text-decoration: none;
+  font-weight: 500;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+ul li a:hover{
+ color: gray;
+}
+
+
+.ala {
+  text-align: center;
+  color: white;
+  flex-wrap: wrap;
+}
+
+.retangulos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.retangulo1{
+  width: 200px;
+  height: 55px;
+  background-color: yellow;
+  color: black;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-right: 30px;
+}
+
+.retangulo2 {
+  width: 180px;
+  height: 55px;
+  border: 0.5px solid white;
+  color: white;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.retangulo2:hover{
+  background-color: white;
+  color: rgb(36, 36, 78);
+}
